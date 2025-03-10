@@ -26,3 +26,7 @@ int bubbleSort(int n, int A[])
     return trud;
 
 }
+int main(){
+    int a[] = {4, 2};
+    bubbleSort(2, a);
+}
