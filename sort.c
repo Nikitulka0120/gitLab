@@ -1,7 +1,7 @@
 int bubbleSort(int n, int A[])
 {
-    // printf("Контрольная сумма до сортировки:%d\n",CheckSum(n, A));
-    // printf("Число серий до сортировки:%d\n",RunNumber(n, A));
+    printf("Контрольная сумма до сортировки:%d\n",CheckSum(n, A));
+    printf("Число серий до сортировки:%d\n",RunNumber(n, A));
     int C = 0; //kommentary
     int M = 0;
     for (int i = 0; i < n - 1; i++)
