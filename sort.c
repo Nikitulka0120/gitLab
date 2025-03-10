@@ -20,8 +20,8 @@ int bubbleSort(int n, int A[])
             }
         }
     }
-    // printf("Контрольная сумма после сортировки:%d\n",CheckSum(n, A));
-    // printf("Число серий после сортировки:%d\n",RunNumber(n, A));
+    printf("Контрольная сумма после сортировки:%d\n",CheckSum(n, A));
+    printf("Число серий после сортировки:%d\n",RunNumber(n, A));
     int trud = M + C;
     return trud;
 
